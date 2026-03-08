@@ -1,0 +1,10 @@
+print("Tere tulemast programmi 'Finantsnõustaja'!")
+print("Sinu isiklik nõustaja ei tee emotsionaalseid oste.")
+
+money = int (input("Kui palju raha sul praegu on?:"))
+if money < 1500:
+    print("Sul pole veel piisavalt raha. Ole kannatlik ja kogu edasi!")
+elif money == 1500:
+    print("Palju Õnne! Saad osta uue iPhone 17 pro sularahas!")
+else:
+    print("Võid endale osta iPhone 17 pro ja veel jääb raha üle!")

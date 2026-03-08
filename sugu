@@ -1,0 +1,9 @@
+nimi = input("Sisestage oma perekonnanimi: ").strip()
+sugu = input("Sisestage oma sugu (m/n): ").strip().lower()
+
+if sugu == "m":
+    print(f"Tere, härra {nimi}!")
+elif sugu == "n":
+    print(f"Tere, proua {nimi}!")
+else:
+    print(f"Tere tulemast, {nimi}! Sugu ei olegi tähtis :)")

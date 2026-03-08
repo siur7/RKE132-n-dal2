@@ -1,0 +1,14 @@
+goal = 10000
+steps = int(input("Mitu sammu oled juba täna teinud?:"))
+percent = (steps / goal) * 100
+
+print(f"{percent}%")
+
+if percent < 50:
+    print("Alles poolel teel, liigu edasi.")
+elif percent < 75:
+    print("Tubli, oled peaaegu kohal!")
+elif percent < 100:
+    print("Suurepärane, jätka samas vaimus!")
+else:
+    print("Palju õnne! Oled oma eesmärgi täitnud!")
